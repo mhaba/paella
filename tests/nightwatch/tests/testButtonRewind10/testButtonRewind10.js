@@ -10,6 +10,8 @@ module.exports = {
       await browser
         .click('.buttonPlugin.left.flexSkip_Rewind_10')
         
+        //Has the recording rewinded 10 seconds? 
+
         .end();
     }
   };
