@@ -18,7 +18,7 @@ module.exports = {
 
         .assert.containsText("#buttonPlugin3 .button-text", "0.75x")
 
-        //Ver si la velocidad de reproducción pasa a 0.75
+        //Check if the playback speed has been reduced
 
         .end();
     }
