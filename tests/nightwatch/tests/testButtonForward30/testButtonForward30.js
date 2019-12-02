@@ -9,6 +9,9 @@ module.exports = {
         .waitForElementVisible('.buttonPlugin.left.flexSkip_Forward_30')
         .assert.visible('.buttonPlugin.left.flexSkip_Forward_30')
         .click('.buttonPlugin.left.flexSkip_Forward_30')
+
+        //Has the recording jumped forward 30 seconds? 
+
         .end();
     }
   };
