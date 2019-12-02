@@ -16,7 +16,7 @@ module.exports = {
         .assert.visible('.glyphicon.glyphicon-zoom-in')
         .click('.glyphicon.glyphicon-zoom-in')
 
-        //Comprobar si se ha hecho zoom.
+        //Has the recording zoomed?
 
         .end();
     }
