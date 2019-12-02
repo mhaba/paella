@@ -7,6 +7,9 @@ module.exports = {
         .click('.videoWrapper')
         .waitForElementNotVisible('.play-icon')
         .assert.hidden('.play-icon')
+
+        //Is the recording starting?
+
         .end();
     }
   };
