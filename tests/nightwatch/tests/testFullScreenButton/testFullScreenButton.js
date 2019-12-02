@@ -11,16 +11,15 @@ module.exports = {
         .assert.visible('#buttonPlugin10')
 
         .click('#buttonPlugin10')
-        //Comprobar que está en pantalla completa               <------
+        //Is the fullscreen on?
 
         .useXpath()
         .waitForElementVisible("//div[@id='buttonPlugin10']/i[@class='button-icon icon-fullscreen']") //fullscreen button
         .assert.visible("//div[@id='buttonPlugin10']/i[@class='button-icon icon-fullscreen']")
         .useCss() 
 
-        //Comprobar que está en pantalla normal
-
         .click('#buttonPlugin10')
+        //Is the fullscreen off?
         .waitForElementVisible('#buttonPlugin10')
         .assert.visible('#buttonPlugin10')
 
